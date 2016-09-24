@@ -137,15 +137,15 @@ gulp.task('browser-sync', function () {
 gulp.task('build',['clean','browser-sync'],function(){
 
     // buildDevCss
-    console.log(">>>>>>",argv.c);
-    if (argv.c) {
+    // console.log(">>>>>>",argv.p);
+    // if (argv.p) {
 
-        gulp.run('buildDevCss');
+    //     gulp.run('buildDevCss');
     
-    }else{
+    // }else{
         
         gulp.run('buildDev');
-    }
+    // }
 });
 
 
